@@ -1,4 +1,4 @@
-# tampermonkey-shivtr-extend
+# Tampermonkey Shivtr extend
 Extends Shivtr sites with useful functionalities.
 
 ## Installation
@@ -13,3 +13,7 @@ Extends Shivtr sites with useful functionalities.
 	* UC Browser - install [Tampermonkey](https://tampermonkey.net/?ext=dhdg&browser=ucweb).
 
 2.  Click here for [installation of user script](https://raw.githubusercontent.com/JJetmar/tampermonkey-shivtr-extend/master/tampermonkey-shivtr-extend.user.js).
+
+## Features
+
+* Adds button for invitation of all members that signed for event.
