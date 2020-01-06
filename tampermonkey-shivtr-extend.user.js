@@ -64,9 +64,7 @@
             -- move to group
             -- SetRaidSubgroup(index, subgroup);
         end
-    end`.replace(/--[^\n]*/mg, "").replace(/\s+/mg, " ").replace(/ ?(;|=) ?/mg, "$1");
-
-
+    end`.replace(/--[^\n]*/mg, "").replace(/\s+/mg, " ").replace(/\s*(;|=)\s*/mg, "$1");
 
     // On page load
     initInvitations();
