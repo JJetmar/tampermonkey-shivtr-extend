@@ -64,7 +64,7 @@
             -- move to group
             -- SetRaidSubgroup(index, subgroup);
         end
-    end`.replace(/--[^\n]*/mg, "").replace(/\s+/mg, " ").replace(/; /mg, ";");
+    end`.replace(/--[^\n]*/mg, "").replace(/\s+/mg, " ").replace(/ ?(;|=) ?/mg, "$1");
 
 
 
