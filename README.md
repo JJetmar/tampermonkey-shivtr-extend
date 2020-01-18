@@ -14,6 +14,10 @@ Extends Shivtr sites with useful functionalities.
 
 2.  Click here for [installation of user script](https://raw.githubusercontent.com/JJetmar/tampermonkey-shivtr-extend/master/tampermonkey-shivtr-extend.user.js).
 
+3.  Go to any Shivtr hosted website and navigate to event detail. Mention two new buttons.
+
 ## Features
 
-* Adds button for invitation of all members that signed for event.
+* Adds button for invitation of all members that signed for event via in-game script.
+
+* Allows to generate member structure for addon [NightRaider](https://github.com/JJetmar/NightRaider).
