@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tampermonkey Shivtr extension
 // @namespace    https://github.com/JJetmar
-// @version      0.2
+// @version      0.3.1
 // @description  Allows to generate World of Warcraft in-game scripts based on Shivtr page content.
 // @author       JJetmar
 // @include      *.shivtr.com/events/*
