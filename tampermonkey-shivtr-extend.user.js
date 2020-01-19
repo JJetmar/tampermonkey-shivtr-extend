@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tampermonkey Shivtr extension
 // @namespace    https://github.com/JJetmar
-// @version      0.3.1
+// @version      0.3.2
 // @description  Allows to generate World of Warcraft in-game scripts based on Shivtr page content.
 // @author       JJetmar
 // @include      *.shivtr.com/events/*
@@ -69,7 +69,7 @@
         const members = {};
         const groups = shadow.querySelectorAll("td");
         for (const group of groups) {
-          const groupNumber = (group.querySelectorAll(".table_header")[0].innerText.match(/^Group(\d+)/) || {1: 0})[1];
+          const groupNumber = (group.querySelectorAll(".table_header")[0].innerText.match(/Group(\d+)/) || {1: 0})[1];
 
           for (const member of [...group.querySelectorAll("a.member_link")].map(member => member.innerText.trim())) {
             members[member] = parseInt(groupNumber);
