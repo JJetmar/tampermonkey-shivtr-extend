@@ -69,7 +69,7 @@
         const members = {};
         const groups = shadow.querySelectorAll("td");
         for (const group of groups) {
-          const groupNumber = (group.querySelectorAll(".table_header")[0].innerText.match(/^\s*Group(\d+)/) || {1: 0})[1];
+          const groupNumber = (group.querySelectorAll(".table_header")[0].innerText.match(/^Group(\d+)/) || {1: 0})[1];
 
           for (const member of [...group.querySelectorAll("a.member_link")].map(member => member.innerText.trim())) {
             members[member] = parseInt(groupNumber);
